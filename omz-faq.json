@@ -1,0 +1,24 @@
+{
+    "What is Oh My Zsh and what does it have to do with zsh?": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#what-is-oh-my-zsh-and-what-does-it-have-to-do-with-zsh",
+    "What is a zsh plugin?": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#what-is-a-zsh-plugin",
+    "What is a zsh theme?": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#what-is-a-zsh-theme",
+    "What is the .zshrc file?": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#what-is-the-zshrc-file",
+    "What Oh My Zsh is not": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#what-oh-my-zsh-is-not",
+    "What Zsh is not": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#what-zsh-is-not",
+    "How do I install Zsh?": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#how-do-i-install-zsh",
+    "How do I install Zsh on Windows?": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#how-do-i-install-zsh-on-windows",
+    "How do I install Oh My Zsh?": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#how-do-i-install-oh-my-zsh",
+    "How do I uninstall Oh My Zsh?": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#how-do-i-uninstall-oh-my-zsh",
+    "How do I change my locale?": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#how-do-i-change-my-locale",
+    "How do I reload the zshrc file?": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#how-do-i-reload-the-zshrc-file",
+    "How do I reset the completion cache?": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#how-do-i-reset-the-completion-cache",
+    "How do I manually update Oh My Zsh from a script?": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#how-do-i-manually-update-oh-my-zsh-from-a-script",
+    "My .zshrc file was deleted on install": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#my-zshrc-file-was-deleted-on-install",
+    "I have a weird character in my prompt": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#i-have-a-weird-character-in-my-prompt",
+    "I have enabled a completion plugin but the completion doesn't work": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#i-have-enabled-a-completion-plugin-but-the-completion-doesnt-work",
+    "I see duplicate typed characters after I complete a command": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#i-see-duplicate-typed-characters-after-i-complete-a-command",
+    "zsh: no matches found": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#zsh-no-matches-found",
+    "kill-word or backward-kill-word do / don't delete a symbol WORDCHARS": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#kill-word-or-backward-kill-word-do--dont-delete-a-symbol-wordchars",
+    "Why shouldn't I install Oh My Zsh as root?": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#why-shouldnt-i-install-oh-my-zsh-as-root"
+}
+

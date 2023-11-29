@@ -1,38 +1,37 @@
 import discord
+import json
 
-TOKEN = ""
+intents = discord.Intents.default()
+intents.message_content = True
 
-bot = discord.Bot()
+bot = discord.Client(intents = intents)
+
+
+with open("config.json", "r") as f:
+    config = json.load(f)
 
 @bot.event
 async def on_ready():
     print(f"{bot.user} is ready for action!")
-
-CONFIG = {
-    642496866407284746: {
-        "banMsg": "You have been banned by our automated spam prevention! If you believe this to be in error, contact @thetechrobo or @oliviawolfie to get unbanned.",
-        "channel": 710190946268217384
-    },
-}
 
 @bot.event
 async def on_message(message):
     if not message.guild:
         print("Invalid guild for message", message)
         return
-    config = CONFIG.get(message.guild.id)
-    if not config:
+    spamConf = config["spamtrap"].get(str(message.guild.id))
+    if not spamConf:
         print("No config for guild", message.guild)
         return
-    if message.channel.id != config['channel']:
+    if message.channel.id != spamConf['channel']:
         return
     if message.author == bot.user:
         return
     try:
-        await message.author.send(config['banMsg'])
+        await message.author.send(spamConf['banMsg'])
     except KeyError:
         print("WARNING: No ban msg setup for guild", message.guild)
     await message.author.ban(reason="Dared to speak in the sacred channel", delete_message_days=1)
     print(f"Caught someone! [{message.created_at.timestamp()}] <{message.author} ({message.author.id})> in {message.guild}")
 
-bot.run(TOKEN)
+bot.run(config["token"])

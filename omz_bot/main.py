@@ -31,8 +31,13 @@ async def on_message(message):
     if not spamConf:
         print("No config for guild", message.guild)
         return
-    elif message.channel.id != spamConf['channel']:
-        return
+    channel = spamConf['channel']
+    if isinstance(channel, int):
+        if message.channel.id != channel:
+            return
+    else:
+        if message.channel.id not in channel:
+            return
 
     try:
         await message.author.send(spamConf['banMsg'])

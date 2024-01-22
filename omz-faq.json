@@ -19,6 +19,7 @@
     "I see duplicate typed characters after I complete a command": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#i-see-duplicate-typed-characters-after-i-complete-a-command",
     "zsh: no matches found": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#zsh-no-matches-found",
     "kill-word or backward-kill-word do / don't delete a symbol WORDCHARS": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#kill-word-or-backward-kill-word-do--dont-delete-a-symbol-wordchars",
-    "Why shouldn't I install Oh My Zsh as root?": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#why-shouldnt-i-install-oh-my-zsh-as-root"
+    "Why shouldn't I install Oh My Zsh as root?": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#why-shouldnt-i-install-oh-my-zsh-as-root",
+    "Some commands no longer work after installing Oh My Zsh": "https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#some-commands-no-longer-work-after-installing-oh-my-zsh"
 }
 

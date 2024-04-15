@@ -43,6 +43,9 @@ async def on_message(message):
         await message.author.send(spamConf['banMsg'])
     except KeyError:
         print("WARNING: No ban msg setup for guild", message.guild)
+    except discord.errors.Forbidden:
+        # Ignore errors for DM failures
+        pass
     await message.author.ban(reason="Dared to speak in the sacred channel", delete_message_days=1)
     print(f"Caught someone! [{message.created_at.timestamp()}] <{message.author} ({message.author.id})> in {message.guild}")
 
